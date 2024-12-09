@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap" rel="stylesheet">
+</head>
+<div class="container">
+    <header class="header">
+        <div class="hero">
+            <h2 class="heading">FLY-MERCH</h2>
+            <p class="sub-heading">T-Shirt & Pants</p>
+        </div>
+        <div class="features feature-1">
+            <h4 class="price">IDR 500K</h4>
+            <p class="item">T-Shirt</p>
+        </div>
+        <div class="features feature-2">
+            <h4 class="price">IDR 200K</h4>
+            <p class="item">Pants</p>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="menu-icon">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        <div class="brand"><h1>FLY-MERCH</h1>
+        </div>
+        <ul class="menu-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <section class="services">
+        <div class="service">
+        <div class="icon">💻</div>
+            <h3>Tutorial</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed distinctio aut voluptatem quod eum.</p>
+        </div>
+
+        <div class="service">
+            <div class="icon">💻</div>
+                <h3>Tutorial</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed distinctio aut voluptatem quod eum.</p>
+            </div>
+    </section>
+
+</div>
+<script>
+    const menuIcon = document.querySelector('.menu-icon input');
+const nav = document.querySelector('nav ul');
+
+menuIcon.addEventListener('click', function(){
+nav.classList.toggle('slide');
+});
+</script>
+</body>
+</html>
